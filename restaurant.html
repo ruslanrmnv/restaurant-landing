@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Olive & Oak</a>
+        <button id="menu-btn">☰</button>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="hero" class="hero">
+        <h1>Olive & Oak</h1>
+        <span>Modern dishes, timeless flavors</span>
+        <a href="#contact" class="btn">Reserve a Table</a>
+    </section>
+    <section id="about" class="about fade-in">
+    <h2>Our Story</h2>
+    <p>Olive & Oak was founded with a simple idea — bring fresh, seasonal ingredients together with bold flavors in a warm, welcoming space. Every dish tells a story of tradition meeting innovation.</p>
+</section>
+    <section class="menu fade-in">
+        <h2>Our Menu</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="photo1.jpg" alt="first dish">
+                <h3>Grilled Salmon</h3>
+                <p>"Served with roasted vegetables and lemon butter sauce"</p>
+                <span class="price">$24</span>
+            </div>
+            <div class="card">
+                <img src="photo2.jpg" alt="second dish">
+                <h3>Truffle Risotto</h3>
+                <p>"Creamy Arborio rice with wild mushrooms and truffle oil"</p>
+                <span class="price">$19</span>
+            </div>
+            <div class="card">
+                <img src="photo3.avif" alt="third dish">
+                <h3>Wagyu Burger</h3>
+                <p>"Premium beef, caramelized onions, brioche bun"</p>
+                <span class="price">$22</span>
+            </div>
+            <div class="card">
+                <img src="photo4.jpg" alt="fourth dish">
+                <h3>Charred Octopus</h3>
+                <p>"Smoked paprika, chickpea purée, citrus dressing"</p>
+                <span class="price">$26</span>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery fade-in">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="interior1.jpg" alt="interior">
+            <img src="interior2.jpg" alt="interior">
+            <img src="interior3.jpg" alt="interior">
+            <img src="interior4.jpg" alt="interior">
+            <img src="interior5.jpg" alt="interior">
+            <img src="interior6.jpg" alt="interior">
+        </div>
+    </section>
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Us</h2>
+        <form class="form">
+            <input type="text" placeholder="Your Name">
+            <p class="error" id="name-error"></p>
+            <input type="email" placeholder="Your Email">
+            <p class="error" id="email-error"></p>
+            <input type="text" placeholder="Your Number">
+            <p class="error" id="number-error"></p>
+            <textarea placeholder="Your Message"></textarea>
+            <p class="error" id="message-error"></p>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2026 Olive & Oak. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
